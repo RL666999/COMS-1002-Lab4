@@ -4,16 +4,6 @@ def hamming_distance(s1: str, s2: str) -> int:
     """
     Compute the Hamming distance between two strings.
     The Hamming distance is the number of differing characters at the same positions.
-
-    Parameters:
-    s1 (str): First string
-    s2 (str): Second string
-
-    Returns:
-    int: The Hamming distance
-
-    Raises:
-    ValueError: If the strings are not the same length
     """
     if len(s1) != len(s2):
         raise ValueError("Strings must be of equal length to compute Hamming distance")
